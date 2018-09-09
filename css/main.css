@@ -1,0 +1,219 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+div, p, button ,span, a {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+    font-weight:normal;
+}
+p {
+	margin: 0;
+}
+.container {
+	width: 1146px;
+	margin: 0 auto;
+}
+.header {
+	background: url('../img/Overlay.png') no-repeat center top;
+    background-size: auto 100%;
+}
+menu{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-right: 337px;
+    width: 100%;
+    background: rgb(232, 235, 235,0.8);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+nav{
+    padding: 35px 0px 35px 0px;
+    width: 770px;
+    margin: 0 auto; 
+    display: block;
+    height: 19px;
+    margin-right: 337px;
+}
+.link-1 {
+    transition: 0.3s ease;
+    color: #797979;
+    font-size: 14px;
+    text-decoration: none;
+    margin:0 30px;
+}
+.link-1:hover {
+    color:  #ff3251;
+}
+.btn {
+    border: 1px solid #ff3251;
+    border-radius: 40px;
+	color: #ff3251;
+    font-size: 10px;
+	width: 166px;
+	padding: 13px 0px 15px 0px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 93px;
+	transition: all 0.5s ease;
+    margin: 0 auto;
+}
+.btn:hover {
+	background: #ff3251;
+    color: white;
+}
+ .btn1 {
+    height: 40px;
+    margin-top: 20px;
+    display: block;
+    margin-left: 0;
+}
+.titleBlock{
+    padding-top: 220px;
+}
+.titleBlock h1{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-weight:normal;
+}
+.scroll {
+    width: 33px;
+    margin:0 auto;
+    padding-top: 200px;
+    padding-bottom: 25px;
+}
+.titleText{
+    padding-top: 80px;
+    text-align: center;
+}
+ h2{
+    color: #ff3251;
+    font-size: 25px;
+}
+.titleText h3{
+    padding-top: 24px;
+    color: #626261;
+    font-size: 16px;
+    width: 755px;
+    padding-left: 196px;
+    line-height:35px;
+}
+.merits {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 145px;
+}
+.unit {
+	width: 340px;
+	margin-left: 30px;
+	padding-top: 65px;
+    text-align: center;
+    font-size: 13px;
+    color: #626261;
+    padding-bottom: 71px;
+}
+.unit:nth-child(1) {
+    background: url('../img/Garanty-icon.png') no-repeat  top;
+}
+.unit:nth-child(2) {
+	background: url('../img/economy-icon.png') no-repeat  top;
+}
+
+.unit:nth-child(3) {
+	background: url('../img/delivery-icon.png') no-repeat  top;
+}
+.unit:nth-child(4) {
+	background: url('../img/reputation-icon.png') no-repeat  top;
+    padding-top: 55px
+}
+.unit h3 {
+	margin-bottom: 22px;
+    color: #ff3251;
+    font-size: 16px;
+    padding: 0;
+}
+.textBlue{
+    color: #00c7c0;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+.katalog{
+	margin: 0 auto;
+    background: #f4f6f8 center center fixed;;
+    padding-bottom:70px;
+    background-size: auto 100%;
+}
+.merit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
+}
+.units{
+    width: 264px;
+    text-align: center;
+    font-size: 10px;
+    color: #3c3c3c;
+    padding-bottom: 139px;
+    background: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -8px #626261;
+}
+.unitsText{
+    padding-top: 10px;
+}
+.units h3{
+    padding-top: 10px;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+.pink{
+     color: #ff3251;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    width: 850px;
+    margin-top: 42px;
+}
+.btn_1{
+    margin-top: 69px;
+}
+.footer {
+	background: white;
+	color: #000;
+	font-size: 11px;
+}
+.footer-text {
+    width: 400px;
+    padding-top: 81px;
+    margin-right: 160px;
+}
+.footer-item {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footer-item h3{
+    padding-bottom: 8px;
+}
+.footer-item p{
+    color: #888788;
+}
+.container_1{
+    display: flex;
+    width: 1146px;
+    margin: 0 auto;
+}
